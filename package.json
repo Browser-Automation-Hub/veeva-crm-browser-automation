@@ -1,7 +1,7 @@
 {
-  "name": "veeva-crm-browser-automation",
+  "name": "@browser-automation-hub/veeva-crm-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Veeva CRM — automate pharma field sales workflows, call reporting, key account management, sample management, and medical affairs tasks without the Veeva API.",
+  "description": "Browser automation for Veeva CRM — automate pharma field sales, call reporting, and key account management",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/veeva-crm-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/veeva-crm-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
